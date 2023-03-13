@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import './line.css';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+     <div id='wrapper_1'>
+      <div>Trending Subject</div>
+      <div>
+        <input type="text" placeholder="Search Subject"/>
+      </div>
+      <div>Javascript</div>
+      <div>Harry Potter</div>
+      <div>Indian History</div>
+      <div>Cryto currency</div>
+      <div>Criminal Law</div>
+      </div>  
+
+      {/* <div className="line1">
+       <div className="verticle-line"></div>
+      </div> */}
+
+      <div id='wrapper_2'>
+        <input type="text" placeholder="Search Book By Titles or By Author" id='search1' />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+  
+      
+    </>
+  )
 }
 
-export default App;
+export default App

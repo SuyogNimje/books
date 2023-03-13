@@ -1,0 +1,42 @@
+
+#wrapper_1 {
+    /* background-color: pink; */
+    height: 100%;
+    float: left;
+    width: 12%;
+  }
+  #wrapper_1:after {
+    content: "";
+    background-color: silver;
+    position: absolute;
+    width: 3px;
+    height: 97%;
+    top: 10px;
+    left: 13%;
+    display: block;
+  }
+  #wrapper_2 {
+    /* background-color: brown; */
+    height: 100%;
+    width: 88%;
+    float: right;
+  }
+
+  #wrapper_2:after {
+    content: "";
+    background-color: silver;
+    position: absolute;
+    width: 86%;
+    height: 3px;
+    /* top: 10px; */
+    top: 6%;
+    display: block;
+    margin-left: 10px;
+  }
+
+  #search1 {
+    margin-left: 23px;
+    width: 247px;
+  }
+  
+
